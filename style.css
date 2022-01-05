@@ -12,6 +12,7 @@ body{
     padding-left: 100px;
     padding-right: 100px;
     margin-left: 50px;
+    
 }
 .half-width img{
     width: 100%;
@@ -45,13 +46,24 @@ h2{
     
 }
 .golden{
-    color: gold;
+    color: rgb(189, 80, 7);
 }
+p, h3{
+    padding: 20px;
+    background-color: rgba(198, 182, 228, 0.37);
+    box-shadow: 20px 50px 1500px rgba(228, 98, 98, 0.418);
+    border-radius: 15px;
+}
+p{
+    color: rgb(122, 8, 84);
+}
+
 .shadow{
     
-    box-shadow: 10px 10px 15px rgb(105, 92, 92);
-    height: 400px;
-border-radius: 10PX;
+    box-shadow: 10px 10px 15px rgba(111, 66, 233, 0.377);
+    height: auto;
+    padding: 60px;
+    border-radius: 10PX;
    
 
     margin-bottom: 200px;
@@ -65,5 +77,6 @@ border-radius: 10PX;
 .two{
     border-left: 10px solid;
     border-image: linear-gradient(180deg, rgba(31, 41, 134, 0.993), rgb(114, 158, 12));
+    margin-right: 30px;
     border-image-slice: 1;
 }
