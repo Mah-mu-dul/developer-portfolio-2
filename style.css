@@ -43,7 +43,7 @@ h2{
     background-image:linear-gradient(90deg,rgb(255, 136, 0), tomato );
 }
 .btn:hover{
-    background-image:linear-gradient(90deg,rgb(180, 98, 4), rgb(122, 47, 33) );
+    background-image:linear-gradient(90deg,rgb(201, 163, 59), rgb(185, 75, 56) );
 }
 .firs-section{
     background-image: url(images/top-banner-removebg-preview.png);
@@ -64,8 +64,20 @@ h2{
 }
 p, h3{
     padding: 20px;
-    background-color: rgba(44, 85, 17, 0.493);
+    background-color: rgba(64, 95, 43, 0.404);
     box-shadow: 2px 2px 1500px 23px rgb(248, 244, 8);
+    border-radius: 15px;
+}
+p:hover{
+    padding: 20px;
+    background-color: rgba(105, 158, 70, 0.39);
+    box-shadow: 1px 1px 200px 30px rgb(64, 82, 114);
+    border-radius: 15px;
+}
+h3:hover{
+    padding: 20px;
+    background-color: rgba(123, 173, 58, 0.493);
+    box-shadow: 1px 1px 200px 30px rgb(69, 107, 177);
     border-radius: 15px;
 }
 p{
@@ -82,6 +94,14 @@ p{
 
     margin-bottom: 200px;
 }
+.shadow:hover{
+    box-shadow: 15px 15px 50px rgba(214, 202, 33, 0.781);
+    height: auto;
+    padding: 60px;
+    border-radius: 10PX;
+   
+
+}
 .one{
     border-left: 10px solid;
     border-image: linear-gradient(180deg, rgb(231, 7, 175), rgb(44, 7, 114));
@@ -95,4 +115,8 @@ p{
     border-image: linear-gradient(180deg, rgba(31, 41, 134, 0.993), rgba(46, 158, 12, 0.89));
     margin-right: 30px;
     border-image-slice: 1;
+}
+#footer{
+    text-align: center;
+    text-decoration: none;
 }
